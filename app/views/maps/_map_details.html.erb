@@ -1,0 +1,8 @@
+<% if @maps.present? %>
+	<% @maps.each do |map| %>
+		<tr>
+	    <th><%= map._id %></th>
+	    <th><%= map.details %></th>
+	  </tr>
+	<% end %>
+<% end %>
